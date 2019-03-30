@@ -1,0 +1,1 @@
+window.displayCaptcha=(()=>{const e=document.forms[0].name.value,t=document.forms[0]._replyto.value,a=document.forms[0].message.value,m=t.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);return!!(e&&m&&a)&&(document.getElementById("contactCaptcha").style.display="initial",!0)});
